@@ -1,9 +1,11 @@
 
+
+# Nested if/else statement...
 height = int(input("Enter your height "))
 bill = 0
-if(height >= 120):
+if height >= 120:
     age = int(input("Enter your Age: "))
-    if(age < 12 ):
+    if age < 12:
         bill = 5
         print(f"Child ticket is ${bill}")
     elif(age <= 18):
