@@ -113,5 +113,9 @@ for key in programming_dictionary:
 
 - ------------------------END HERE-------------------------
 
+## Day-18
+- Class format
+![Screenshot (315)](https://user-images.githubusercontent.com/94203408/170647658-e0477e16-cc51-4526-a8bc-6c030275c0eb.png)
+
  
 
