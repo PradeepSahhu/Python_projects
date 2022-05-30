@@ -2,7 +2,17 @@
 
 
 - 100 folders for 100 projects
-- First 15 Days is gonna be a Beginner level.
+- First 15 Days is at Beginner level.
+  - Learning to use conditional statement like if/else/elif
+  - Learning to use looping like while/for
+  - And integrated projects
+- Next 45 Days is intermediate level. 
+  - Learning to use classes
+  - what is constructor/initializer
+  - what is python modules and how they work
+  - how python packages work what is __init__ in python package
+  - Making some projects using classes
+ - Next 40 Days is Advance level
 
 ## Day-1
 - Random Band Name Generator.
@@ -32,4 +42,80 @@
 ## Day-5
 - Encrypted Password Generator.
 > - using Lists, random and loops to make a random encrypted password generator.
+> - Encrypted text means cypher text. (Encryption converts data into scrambled text. The unreadable text can only be decoded with a secret key. The secret key is a number that's: Created on your device and the device you message.)
+
 - ------------------------END HERE-------------------------
+
+## Day-6
+- Using Python functions
+> - python functinons or functions in general are actions that a prgram performs
+> - A function must be specific what it does and must be reusable
+
+- ------------------------END HERE-------------------------
+## Day-7
+- Making Hangman project
+> - Learnig to use modules of code and importing them to perform a specific task
+> - use conditional statement for the lives, if the answer is wrong it reduces a live
+> - Random word guesser from a list of hundreds of words
+> - using while loop to run the game until either the lives are over or the player guessed the word.
+> - Also performing the refactoring of code.
+> - Also using logos to visualize the lives.
+
+- ------------------------END HERE-------------------------
+## Day-8
+- Again using functions and passing parameters into the functions
+
+- ------------------------END HERE-------------------------
+## Day-9
+- Learning python Dictionaries and Nesting
+> - Dictionaries work on key: value pair in python
+> - Any value can only be accessed or changed by only knowing the key.
+> - Key could also be changed as its value or the entire key: value pair.
+
+- An example for accessing both key and value in dictionaries are as follows:
+```
+python_dictionary = {
+ "Bug": "An error in a program that prevents the program from running as expected.",
+ "Function": "A piece of code that you can easily call over and over again.",
+ "Loop": "The action of doing something over and over again.",
+}
+```
+- Value can be accessed by;
+```
+ print(python_dictionary["Bug"])
+```
+- Another pair of key and value pair could also be created;
+```
+python_dictionary["Rare"] = "Hello there this is a rare scene"
+# print(python_dictionary)
+```
+- with for loop;
+```
+for key in programming_dictionary:
+    print(key) #It will print the key inside the dictionary
+    print(programming_dictionary[key]) #Now it will print key and its value.
+
+```
+- Nesting
+> - Nesting is when a statement is inside another statement. 
+> - It could be any type of statements like conditinal inside loop or vice versa.
+- ------------------------END HERE-------------------------
+
+## Day-10
+- Funcions with output with return statement
+> - Functions are usually made to return some value.
+> - That's why use return keyword to output some value.
+> - Important! return statement will immediately terminate the program so that's why a function could only have one return statement to execute.
+>  - When calling the function it is necessary to remember that return value will be stored in the calling statement.
+>  - And it could be used to use that data.
+>  - print statement inside functions will not return any value, it will just print the calculations not output the value to the program.
+>  - And that value can't be used in other parts of the program
+
+- ------------------------END HERE-------------------------
+
+## Day-18
+- Class format
+![Screenshot (315)](https://user-images.githubusercontent.com/94203408/170647658-e0477e16-cc51-4526-a8bc-6c030275c0eb.png)
+
+ 
+
