@@ -7,20 +7,20 @@ programming_dictionary = {
 }
 
 #In dictionary we retrive data through indexing of keys.
-#print(programming_dictionary["Bug"])
+# print(programming_dictionary["Bug"])
 
 #Adding Data in dictionary.
 
-#programming_dictionary["Rare"] = "Hello there this is a rare scene"
-#print(programming_dictionary)
+# programming_dictionary["Rare"] = "Hello there this is a rare scene"
+# print(programming_dictionary)
 
 #Empty dictionary.
 #empty_dictionary = {}
 
 #Edit item in a dictionary.
 
-#programming_dictionary["Bug"] = "I am editing an item here i don't care but its balue"
-#print(programming_dictionary)
+# programming_dictionary["Bug"] = "I am editing an item here i don't care but its balue"
+# print(programming_dictionary)
 
 #Loop through the dictionary.
 for key in programming_dictionary:
