@@ -142,7 +142,21 @@ random.choice(random_walking_list)
 - Because paranthesis () call the function instantly without giving any room to randomly picking them.
 - That's why i use random.randint(0,1) and used condition of what to do with each condition.
 
+### Alternative Approach
+```
+tim.speed(10)
+tim.pensize(10)
+color = ['cornflowerBlue', 'DarkOrchid', 'IndianRed', 'LightSeaGreen', 'wheat', 'slateGray', 'blue', 'green', 'purple', 'aqua', 'black', 'orange', 'pink', 'red']
+directions = [0, 90, 180, 270]
+for _ in range(1000):
+    pen_color = random.choice(color)
+    # tim.pencolor(pen_color)
+    tim.color(pen_color)
+    # tim.right(random.choice(directions))
+    tim.setheading(random.choice(directions))
+    tim.forward(40)
 
+```
 
 - ------------------------END HERE-------------------------
 
