@@ -129,5 +129,20 @@ for key in programming_dictionary:
 - Turtle Shapes
 ![python-turtle_shapes](https://user-images.githubusercontent.com/94203408/172806850-59a088f3-9e41-4d9c-aa49-eaf79510ad70.png)
 
+<hr>
+- Random walking turtle.
+
+![random_walking_turtle](https://user-images.githubusercontent.com/94203408/172931964-6975f7e5-aabb-426e-a06d-5cf4075609a1.png)
+
+- In the above program we can't use 
+```
+random_walking_list = [tim.left(90),tim.right(90)]
+random.choice(random_walking_list)
+```
+- Because paranthesis () call the function instantly without giving any room to randomly picking them.
+- That's why i use random.randint(0,1) and used condition of what to do with each condition.
+
+
+
 - ------------------------END HERE-------------------------
 
