@@ -1,7 +1,7 @@
 # using turtle and GUI to make patterns.
 # Using Python turtles to make random points.
 # Reading Documentation is the key skill in programming
-
+import turtle
 from turtle import Turtle, Screen
 import random
 
@@ -9,8 +9,6 @@ tim = Turtle()
 
 # tim.shape("triangle")
 tim.color("aqua")
-
-
 
 # tim.pen(pencolor="aqua", speed=10, outline=20)
 
@@ -138,11 +136,23 @@ tim.color("aqua")
 # octagon()
 # nonagon()
 # decagon()
+# ===================== Generating random color =================
+turtle.colormode(255)
+
+
+def change_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    random_color = (r, g, b)  # Python tuple immutable
+    return random_color
+
 
 # ======================================== Generating a random walk =======================================
-tim.speed(10)
-tim.pensize(10)
-color = ['cornflowerBlue', 'DarkOrchid', 'IndianRed', 'LightSeaGreen', 'wheat', 'slateGray', 'blue', 'green', 'purple', 'aqua', 'black', 'orange', 'pink', 'red']
+tim.speed("fastest")
+# tim.pensize(10)
+# color = ['cornflowerBlue', 'DarkOrchid', 'IndianRed', 'LightSeaGreen', 'wheat', 'slateGray', 'blue', 'green',
+# 'purple', 'aqua', 'black', 'orange', 'pink', 'red']
 
 # for _ in range(1000):
 #     pen_color = random.choice(color)
@@ -155,14 +165,27 @@ color = ['cornflowerBlue', 'DarkOrchid', 'IndianRed', 'LightSeaGreen', 'wheat', 
 #         tim.right(90)
 #     tim.forward(40)
 # ----------------------- Alternative way -------------------------
-directions = [0, 90, 180, 270]
-for _ in range(1000):
-    pen_color = random.choice(color)
-    # tim.pencolor(pen_color)
-    tim.color(pen_color)
-    # tim.right(random.choice(directions))
-    tim.setheading(random.choice(directions))
-    tim.forward(40)
+# directions = [0, 90, 180, 270]
+# for _ in range(1000):
+#
+#     """Random color"""
+#     tim.color(change_color())  # calling the random color generator function
+#     # pen_color = random.choice(color)
+#     # tim.pencolor(pen_color)
+#     # tim.color(pen_color)
+#     # tim.right(random.choice(directions))
+#     tim.setheading(random.choice(directions))
+#     tim.forward(40)
 
+
+#  ====================== Spirograph making ========================
+def draw_spirograph(size_of_gap):
+    for _ in range(int(360 / size_of_gap)):
+        tim.circle(100)
+        # tim.left(1)
+        tim.setheading(tim.heading() + size_of_gap)  # Shows current heading data with heading function and change it with setheading
+        tim.color(change_color())
+
+draw_spirograph(1)
 screen = Screen()
 screen.exitonclick()

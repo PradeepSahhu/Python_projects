@@ -28,6 +28,3 @@ class BankAccount:
 # print(ac123.balance)
 # ac123.deposit(10000)
 # print(ac123.withdraw(100000))
-ac121 = BankAccount()
-ac121.deposit(8000)
-print(ac121.withdraw(1000))
